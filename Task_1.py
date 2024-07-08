@@ -1,3 +1,17 @@
+'''This program creates a password strength tester with a Tkinter interface. 
+Users type in their username and password. 
+The program then checks how strong the password is. 
+It looks at things like how long it is how complex it is, and if it's unique. 
+The program shows how strong the password is with different colors. 
+We can also click a button to see or hide the password. 
+The program checks a few things about the password. 
+It sees how long it is. It makes sure it's not too much like the username. 
+It checks for big and small letters, numbers, and special symbols. 
+The program has boxes where you type your username and password. 
+It has buttons to test the password and to show or hide it. 
+The program calls passwords "Very Strong," "Strong," "Medium," or "Weak." 
+Each level has its own color.
+'''
 import string
 import tkinter as tk
 from tkinter import ttk
